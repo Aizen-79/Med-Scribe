@@ -245,18 +245,18 @@ section {
 }
 
 .payment-logos img {
-    width: 150px;
-    height: 100px;
-    object-fit: cover; /* zoom effect inside fixed container */
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    width: 150px;              /* keep original size */
+    height: 100px;             /* keep original size */
+    object-fit: cover;         /* zoom effect inside fixed container */
+    background-color: #fff;    /* white background restored */
+    padding: 10px;             /* spacing around logos */
+    border-radius: 8px;        /* rounded corners */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15); /* subtle shadow */
     transition: transform 0.3s ease;
 }
 
 .payment-logos img:hover {
-    transform: scale(1.05);
+    transform: scale(1.05);    /* hover zoom effect */
 }
 
 @media (max-width: 768px) {
@@ -269,10 +269,11 @@ section {
     }
 
     .payment-logos img {
-        width: 120px;
-        height: 80px;
-        padding: 8px;
+        width: 120px;          /* keep original mobile size */
+        height: 80px;          /* keep original mobile size */
+        padding: 8px;          /* smaller padding for mobile */
     }
+}
 
 /* Footer */
 footer {
@@ -315,5 +316,6 @@ footer p {
     }
     #home h1 { font-size: 28px; }
     #services h2, #about h2 { font-size: 24px
+
 
 
