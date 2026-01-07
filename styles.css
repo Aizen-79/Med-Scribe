@@ -164,14 +164,14 @@ nav ul li a:hover {
     max-width: 800px;
     margin: 0 auto;
 }
-
 /* Contact Section */
 #contact {
     padding: 60px 20px;
-    background: #a7d7c5; /* light green */
+    background: #e0f7fa; /* light blue background */
     color: #333;
     text-align: center;
 }
+
 .contact-box {
     display: flex;
     justify-content: center;
@@ -181,33 +181,37 @@ nav ul li a:hover {
     max-width: 900px;
     margin: 0 auto;
 }
+
 .contact-item {
-    background: #8d6e63; /* brown */
-    color: #fff;
+    background: #f5f5f5; /* light gray card */
+    color: #333;
     padding: 15px 20px;
     border-radius: 8px;
+    border: 2px solid #8d6e63; /* brown accent border */
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 260px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
-    transition: transform 0.3s ease;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .contact-item:hover {
-    transform: scale(1.05);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
 }
+
 .copy-btn {
-    background-color: #e0f7fa; /* light blue */
+    background-color: #a7d7c5; /* light green */
     color: #333;
     border: none;
     padding: 8px 15px;
     border-radius: 5px;
     cursor: pointer;
     font-weight: 600;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 .copy-btn:hover {
-    background-color: #8d6e63;
+    background-color: #8d6e63; /* brown hover */
     color: #fff;
 }
 
@@ -277,3 +281,4 @@ footer {
     .contact-box { flex-direction: column; gap: 15px; }
     .payment-logos img { width: 120px; height: 80px; }
 }
+
