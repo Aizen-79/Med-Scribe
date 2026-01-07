@@ -4,11 +4,17 @@
 /* Global Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background: #f5f5f5; /* light gray */
+    background: #f5f5f5;
     color: #333;
     line-height: 1.6;
     margin: 0;
-    padding: 0; /* removed uneven top padding */
+    padding: 0;
+}
+
+/* Reset heading & paragraph margins for balanced spacing */
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 20px; /* consistent spacing after */
 }
 
 /* RTL Support */
@@ -19,7 +25,7 @@ html[dir="rtl"] body {
 
 /* Header */
 header {
-    background: #8d6e63; /* brown */
+    background: #8d6e63;
     color: #fff;
     padding: 15px 20px;
     text-align: center;
@@ -71,55 +77,53 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 nav ul li a:hover {
-    color: #a7d7c5; /* light green accent */
+    color: #a7d7c5;
 }
 
 /* General Section Spacing */
 section {
-    padding: 100px 20px; /* equal top & bottom spacing */
+    padding: 80px 20px; /* equal top & bottom */
 }
 
 /* Home Section */
 #home {
     text-align: center;
-    background: #e0f7fa; /* light blue */
+    background: #e0f7fa;
     animation: fadeInUp 1s ease-out;
-    margin-top: 60px; /* compensate for fixed header */
+    margin-top: 60px; /* offset for fixed header */
 }
 #home h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 42px;
-    margin-bottom: 20px;
     color: #333;
 }
 #home p {
     font-size: 18px;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     color: #555;
 }
 .cta-button {
-    background-color: #a7d7c5; /* light green */
+    background-color: #a7d7c5;
     color: #333;
     padding: 15px 30px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 8px;
-    margin-top: 20px;
     display: inline-block;
     font-size: 18px;
     transition: all 0.3s ease;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 .cta-button:hover {
-    background-color: #8d6e63; /* brown */
+    background-color: #8d6e63;
     color: #fff;
     transform: translateY(-3px);
 }
 
 /* Services Section */
 #services {
-    background: #f5f5f5; /* gray */
+    background: #f5f5f5;
 }
 #services h2 {
     font-family: 'Montserrat', sans-serif;
@@ -146,13 +150,12 @@ section {
 }
 .service-item h3 {
     font-size: 24px;
-    margin-bottom: 10px;
     color: #8d6e63;
 }
 
 /* About Us Section */
 #about {
-    background: #e0f7fa; /* light blue */
+    background: #e0f7fa;
     color: #333;
     text-align: center;
     animation: fadeInUp 1s ease-out;
@@ -170,7 +173,7 @@ section {
 
 /* Contact Section */
 #contact {
-    background: #b2ebf2; /* slightly darker light blue */
+    background: #b2ebf2;
     color: #333;
     text-align: center;
 }
@@ -184,11 +187,11 @@ section {
     margin: 0 auto;
 }
 .contact-item {
-    background: #f5f5f5; /* light gray card */
+    background: #f5f5f5;
     color: #333;
     padding: 15px 20px;
     border-radius: 8px;
-    border: 2px solid #8d6e63; /* brown accent border */
+    border: 2px solid #8d6e63;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -201,7 +204,7 @@ section {
     box-shadow: 0 6px 15px rgba(0,0,0,0.25);
 }
 .copy-btn {
-    background-color: #a7d7c5; /* light green */
+    background-color: #a7d7c5;
     color: #333;
     border: none;
     padding: 8px 15px;
@@ -211,13 +214,13 @@ section {
     transition: all 0.3s ease;
 }
 .copy-btn:hover {
-    background-color: #8d6e63; /* brown hover */
+    background-color: #8d6e63;
     color: #fff;
 }
 
 /* Payment Methods */
 #payment-methods {
-    background-color: #f5f5f5; /* gray */
+    background-color: #f5f5f5;
     text-align: center;
     color: #333;
 }
@@ -250,7 +253,7 @@ section {
 
 /* Footer */
 footer {
-    background: #8d6e63; /* brown */
+    background: #8d6e63;
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -271,7 +274,7 @@ footer {
 /* Responsive */
 @media (max-width: 768px) {
     nav {
-        margin-right: 60px; /* leave space for flags on the right */
+        margin-right: 60px;
     }
     nav ul {
         flex-direction: row;
@@ -290,4 +293,3 @@ footer {
     .contact-box { flex-direction: column; gap: 15px; }
     .payment-logos img { width: 120px; height: 80px; }
 }
-``
