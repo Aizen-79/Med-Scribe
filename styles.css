@@ -228,11 +228,13 @@ section {
     text-align: center;
     color: #333;
 }
+
 #payment-methods h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     margin-bottom: 25px;
 }
+
 .payment-logos {
     display: flex;
     flex-wrap: wrap;
@@ -240,19 +242,21 @@ section {
     gap: 20px;
     align-items: center;
 }
+
 .payment-logos img {
-    width: 150px;   /* restored larger size */
-    height: 100px;  /* restored larger size */
-    object-fit: contain;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    max-width: 100%;       /* allow full original width */
+    height: auto;          /* keep aspect ratio */
+    object-fit: contain;   /* scale nicely without distortion */
+    background-color: transparent; /* no white background */
+    padding: 0;            /* no empty padding */
+    border-radius: 0;      /* no rounded borders */
+    box-shadow: none;      /* clean look by default */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .payment-logos img:hover {
-    transform: scale(1.08);
-    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+    transform: scale(1.08); /* hover zoom */
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25); /* hover shadow */
 }
 
 /* Footer */
@@ -296,3 +300,4 @@ footer p {
     }
     #home h1 { font-size: 28px; }
     #services h2, #about h2 { font-size: 24px
+
