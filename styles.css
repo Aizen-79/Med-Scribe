@@ -77,7 +77,10 @@ nav ul li a:hover {
 /* Home Section */
 #home {
     text-align: center;
-    padding: 60px 20px; /* 60px top & bottom, 20px left & right */
+    padding-top: 60px;   /* same as bottom */
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
     background: #e0f7fa; /* light blue */
     animation: fadeInUp 1s ease-out;
 }
@@ -114,7 +117,10 @@ nav ul li a:hover {
 
 /* Services Section */
 #services {
-    padding: 40px 20px; /* 40px top & bottom, 20px left & right */
+    padding-top: 40px;   /* same as bottom */
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     background: #f5f5f5; /* gray */
 }
 #services h2 {
@@ -148,7 +154,10 @@ nav ul li a:hover {
 
 /* About Us Section */
 #about {
-    padding: 40px 20px; /* 40px top & bottom, 20px left & right */
+    padding-top: 40px;   /* same as bottom */
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     background: #e0f7fa; /* light blue */
     color: #333;
     text-align: center;
@@ -166,7 +175,10 @@ nav ul li a:hover {
 }
 /* Contact Section */
 #contact {
-    padding: 40px 20px; /* 40px top & bottom, 20px left & right */
+    padding-top: 40px;   /* same as bottom */
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     background: #b2ebf2; /* slightly darker light blue */
     color: #333;
     text-align: center;
@@ -217,7 +229,10 @@ nav ul li a:hover {
 
 /* Payment Methods */
 #payment-methods {
-    padding: 40px 20px; /* 40px top & bottom, 20px left & right */
+    padding-top: 40px;   /* same as bottom */
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #f5f5f5; /* gray */
     text-align: center;
     color: #333;
@@ -294,5 +309,6 @@ footer {
     .contact-box { flex-direction: column; gap: 15px; }
     .payment-logos img { width: 120px; height: 80px; }
 }
+
 
 
