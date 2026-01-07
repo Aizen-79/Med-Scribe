@@ -8,11 +8,13 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <!-- Language Switcher -->
   <div class="language-switcher">
     <img src="https://flagcdn.com/w40/gb.png" alt="English" aria-label="Switch to English" onclick="setLanguage('en')" />
     <img src="https://flagcdn.com/w40/sa.png" alt="Arabic" aria-label="Switch to Arabic" onclick="setLanguage('ar')" />
   </div>
 
+  <!-- Header with Navigation -->
   <header>
     <button class="menu-toggle">☰</button>
     <nav>
@@ -25,6 +27,7 @@
     </nav>
   </header>
 
+  <!-- Home Section -->
   <section id="home">
     <h1 data-en="MedScribe" data-ar="ميدسكرايب">MedScribe</h1>
     <p data-en="Your trusted partner for medical and dental research, thesis writing, assignments and presentations."
@@ -34,21 +37,34 @@
     <a href="#services" class="cta-button" data-en="Explore Our Services" data-ar="استعرض خدماتنا">Explore Our Services</a>
   </section>
 
+  <!-- Services Section -->
   <section id="services">
     <h2 data-en="Our Services" data-ar="خدماتنا">Our Services</h2>
-    <!-- Example service item -->
     <div class="service-item">
       <h3 data-en="MSc & PhD Thesis Protocols and Researches" data-ar="بروتوكولات وأبحاث رسائل الماجستير و الدكتوراة">MSc & PhD Thesis Protocols and Researches</h3>
       <p>We provide highly-precise and scientifically rigorous research protocols tailored to meet your specific needs...</p>
     </div>
-    <!-- Add other service items here -->
+    <div class="service-item">
+      <h3 data-en="MSc & PhD Thesis" data-ar="رسائل الماجستير والدكتوراه">MSc & PhD Thesis</h3>
+      <p>We provide comprehensive support for MSc and PhD thesis projects in the medical and dental field...</p>
+    </div>
+    <div class="service-item">
+      <h3 data-en="Medical & Dental Assignments" data-ar="مهام طب الأسنان">Medical & Dental Assignments</h3>
+      <p>We offer a range of services for medical and dental students and professionals who need help with assignments...</p>
+    </div>
+    <div class="service-item">
+      <h3 data-en="PowerPoint and Poster Presentations" data-ar="عروض باوربوينت والملصقات">PowerPoint and Poster Presentations</h3>
+      <p>We provide full PowerPoint or poster presentation services for any academic or professional setting...</p>
+    </div>
   </section>
 
+  <!-- About Section -->
   <section id="about">
     <h2 data-en="About Us" data-ar="من نحن">About Us</h2>
     <p>We are a dedicated team of medical & dental professionals, committed to providing comprehensive scientific researches...</p>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact">
     <h2 data-en="Contact Us" data-ar="اتصل بنا">Contact Us</h2>
     <div class="contact-box">
@@ -67,6 +83,7 @@
     </div>
   </section>
 
+  <!-- Payment Methods -->
   <section id="payment-methods">
     <h2 data-en="Payment Methods" data-ar="طرق الدفع">Payment Methods</h2>
     <div class="payment-logos">
@@ -77,10 +94,12 @@
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 MedScribe. All rights reserved.</p>
   </footer>
 
+  <!-- Scripts -->
   <script>
     function copyPhoneNumber(phoneNumber) {
       navigator.clipboard.writeText(phoneNumber).then(() => {
