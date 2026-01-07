@@ -11,8 +11,8 @@ body {
     padding: 0;
 }
 
-/* Reset heading & paragraph margins */
-h1, h2, h3, h4, h5, h6, p {
+/* Reset heading margins globally but keep natural feel */
+h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 15px;
 }
@@ -82,7 +82,7 @@ nav ul li a:hover {
 
 /* General Section Spacing */
 section {
-    padding: 40px 20px;
+    padding: 40px 20px; /* balanced smaller spacing */
 }
 
 /* Home Section */
@@ -90,7 +90,7 @@ section {
     text-align: center;
     background: #e0f7fa;
     animation: fadeInUp 1s ease-out;
-    margin-top: 60px;
+    margin-top: 60px; /* offset for fixed header */
     padding: 40px 20px;
 }
 #home h1 {
@@ -195,14 +195,13 @@ section {
     border: 2px solid #8d6e63;
     display: flex;
     align-items: center;       /* vertical centering */
-    justify-content: center;   /* horizontal centering */
-    gap: 10px;                 /* spacing between number and button */
+    justify-content: space-between;
     width: 240px;
     box-shadow: 0 3px 8px rgba(0,0,0,0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .contact-item p {
-    margin: 0;
+    margin: 0.5em 0; /* restore default-like margins */
 }
 .contact-item:hover {
     transform: translateY(-5px);
@@ -260,12 +259,13 @@ section {
 footer {
     background: #8d6e63;
     color: #fff;
-    display: flex;
-    align-items: center;       /* vertical centering */
-    justify-content: center;   /* horizontal centering */
-    height: 60px;              /* fixed height for balance */
+    text-align: center;
+    padding: 20px 0; /* restore padding */
     font-size: 14px;
     letter-spacing: 1px;
+}
+footer p {
+    margin: 0.5em 0; /* restore default-like margin */
 }
 
 /* Animations */
@@ -295,6 +295,4 @@ footer {
         margin: 0;
     }
     #home h1 { font-size: 28px; }
-    #services h2, #about h2 { font-size: 24px; }
-    .service-item h3 { font-size: 18px; }
-    .contact-box { flex
+    #services h2, #about h2 { font-size: 24px
