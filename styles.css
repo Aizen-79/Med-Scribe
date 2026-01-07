@@ -8,7 +8,7 @@ body {
     color: #333;
     line-height: 1.6;
     margin: 0;
-    padding-top: 60px; /* for fixed header */
+    padding: 0; /* removed uneven top padding */
 }
 
 /* RTL Support */
@@ -74,12 +74,17 @@ nav ul li a:hover {
     color: #a7d7c5; /* light green accent */
 }
 
+/* General Section Spacing */
+section {
+    padding: 100px 20px; /* equal top & bottom spacing */
+}
+
 /* Home Section */
 #home {
     text-align: center;
-    padding: 80px 20px;
     background: #e0f7fa; /* light blue */
     animation: fadeInUp 1s ease-out;
+    margin-top: 60px; /* compensate for fixed header */
 }
 #home h1 {
     font-family: 'Montserrat', sans-serif;
@@ -114,7 +119,6 @@ nav ul li a:hover {
 
 /* Services Section */
 #services {
-    padding: 60px 20px;
     background: #f5f5f5; /* gray */
 }
 #services h2 {
@@ -148,7 +152,6 @@ nav ul li a:hover {
 
 /* About Us Section */
 #about {
-    padding: 60px 20px;
     background: #e0f7fa; /* light blue */
     color: #333;
     text-align: center;
@@ -164,14 +167,13 @@ nav ul li a:hover {
     max-width: 800px;
     margin: 0 auto;
 }
+
 /* Contact Section */
 #contact {
-    padding: 60px 20px;
     background: #b2ebf2; /* slightly darker light blue */
     color: #333;
     text-align: center;
 }
-
 .contact-box {
     display: flex;
     justify-content: center;
@@ -181,7 +183,6 @@ nav ul li a:hover {
     max-width: 900px;
     margin: 0 auto;
 }
-
 .contact-item {
     background: #f5f5f5; /* light gray card */
     color: #333;
@@ -199,7 +200,6 @@ nav ul li a:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0,0,0,0.25);
 }
-
 .copy-btn {
     background-color: #a7d7c5; /* light green */
     color: #333;
@@ -217,7 +217,6 @@ nav ul li a:hover {
 
 /* Payment Methods */
 #payment-methods {
-    padding: 60px 20px;
     background-color: #f5f5f5; /* gray */
     text-align: center;
     color: #333;
@@ -274,23 +273,21 @@ footer {
     nav {
         margin-right: 60px; /* leave space for flags on the right */
     }
-
     nav ul {
         flex-direction: row;
-        flex-wrap: wrap; /* allow items to break to next line if needed */
+        flex-wrap: wrap;
         gap: 10px;
         margin: 0;
         padding: 0;
         width: 100%;
     }
-
     nav ul li {
         margin: 0;
     }
-
     #home h1 { font-size: 32px; }
     #services h2, #about h2 { font-size: 28px; }
     .service-item h3 { font-size: 20px; }
     .contact-box { flex-direction: column; gap: 15px; }
     .payment-logos img { width: 120px; height: 80px; }
 }
+``
