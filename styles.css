@@ -4,17 +4,11 @@
 /* Global Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background: #f5f5f5;
+    background: #f5f5f5; /* light gray */
     color: #333;
     line-height: 1.6;
     margin: 0;
-    padding: 0;
-}
-
-/* Reset heading margins globally but keep natural feel */
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: 15px;
+    padding-top: 60px; /* for fixed header */
 }
 
 /* RTL Support */
@@ -25,7 +19,7 @@ html[dir="rtl"] body {
 
 /* Header */
 header {
-    background: #8d6e63;
+    background: #8d6e63; /* brown */
     color: #fff;
     padding: 15px 20px;
     text-align: center;
@@ -77,67 +71,64 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 nav ul li a:hover {
-    color: #a7d7c5;
-}
-
-/* General Section Spacing */
-section {
-    padding: 40px 20px; /* balanced smaller spacing */
+    color: #a7d7c5; /* light green accent */
 }
 
 /* Home Section */
 #home {
     text-align: center;
-    background: #e0f7fa;
+    padding: 80px 20px;
+    background: #e0f7fa; /* light blue */
     animation: fadeInUp 1s ease-out;
-    margin-top: 60px; /* offset for fixed header */
-    padding: 40px 20px;
 }
 #home h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 42px;
+    margin-bottom: 20px;
     color: #333;
 }
 #home p {
     font-size: 18px;
     max-width: 600px;
-    margin: 0 auto 15px auto;
+    margin: 0 auto;
     color: #555;
 }
 .cta-button {
-    background-color: #a7d7c5;
+    background-color: #a7d7c5; /* light green */
     color: #333;
-    padding: 12px 24px;
+    padding: 15px 30px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 8px;
+    margin-top: 20px;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     transition: all 0.3s ease;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 .cta-button:hover {
-    background-color: #8d6e63;
+    background-color: #8d6e63; /* brown */
     color: #fff;
     transform: translateY(-3px);
 }
 
 /* Services Section */
 #services {
-    background: #f5f5f5;
+    padding: 60px 20px;
+    background: #f5f5f5; /* gray */
 }
 #services h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
+    font-size: 36px;
     text-align: center;
     color: #333;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 .service-item {
     background: #fff;
     border-left: 5px solid #a7d7c5;
-    padding: 15px;
-    margin-bottom: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     max-width: 900px;
@@ -150,88 +141,91 @@ section {
     transform: translateY(-5px);
 }
 .service-item h3 {
-    font-size: 22px;
+    font-size: 24px;
+    margin-bottom: 10px;
     color: #8d6e63;
 }
 
 /* About Us Section */
 #about {
-    background: #e0f7fa;
+    padding: 60px 20px;
+    background: #e0f7fa; /* light blue */
     color: #333;
     text-align: center;
     animation: fadeInUp 1s ease-out;
 }
 #about h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
+    font-size: 36px;
     margin-bottom: 20px;
 }
 #about p {
-    font-size: 16px;
+    font-size: 18px;
     max-width: 800px;
     margin: 0 auto;
 }
-
 /* Contact Section */
 #contact {
-    background: #b2ebf2;
+    padding: 60px 20px;
+    background: #b2ebf2; /* slightly darker light blue */
     color: #333;
     text-align: center;
 }
+
 .contact-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
     flex-wrap: wrap;
     max-width: 900px;
     margin: 0 auto;
 }
+
 .contact-item {
-    background: #f5f5f5;
+    background: #f5f5f5; /* light gray card */
     color: #333;
-    padding: 15px;
+    padding: 15px 20px;
     border-radius: 8px;
-    border: 2px solid #8d6e63;
+    border: 2px solid #8d6e63; /* brown accent border */
     display: flex;
-    align-items: center;       /* vertical centering */
+    align-items: center;
     justify-content: space-between;
-    width: 240px;
+    width: 260px;
     box-shadow: 0 3px 8px rgba(0,0,0,0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.contact-item p {
-    margin: 0.5em 0; /* restore default-like margins */
 }
 .contact-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0,0,0,0.25);
 }
+
 .copy-btn {
-    background-color: #a7d7c5;
+    background-color: #a7d7c5; /* light green */
     color: #333;
     border: none;
-    padding: 6px 12px;
+    padding: 8px 15px;
     border-radius: 5px;
     cursor: pointer;
     font-weight: 600;
     transition: all 0.3s ease;
 }
 .copy-btn:hover {
-    background-color: #8d6e63;
+    background-color: #8d6e63; /* brown hover */
     color: #fff;
 }
 
 /* Payment Methods */
 #payment-methods {
-    background-color: #f5f5f5;
+    padding: 60px 20px;
+    background-color: #f5f5f5; /* gray */
     text-align: center;
     color: #333;
 }
 #payment-methods h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
-    margin-bottom: 25px;
+    font-size: 32px;
+    margin-bottom: 30px;
 }
 .payment-logos {
     display: flex;
@@ -241,9 +235,9 @@ section {
     align-items: center;
 }
 .payment-logos img {
-    width: 150px; 
+    width: 150px;
     height: 100px;
-    object-fit: cover; /* zoom effect inside fixed container */
+    object-fit: contain;
     background-color: #fff;
     padding: 10px;
     border-radius: 8px;
@@ -257,15 +251,12 @@ section {
 
 /* Footer */
 footer {
-    background: #8d6e63;
+    background: #8d6e63; /* brown */
     color: #fff;
     text-align: center;
-    padding: 20px 0; /* restore padding */
+    padding: 20px 0;
     font-size: 14px;
     letter-spacing: 1px;
-}
-footer p {
-    margin: 0.5em 0; /* restore default-like margin */
 }
 
 /* Animations */
@@ -281,26 +272,25 @@ footer p {
 /* Responsive */
 @media (max-width: 768px) {
     nav {
-        margin-right: 60px;
+        margin-right: 60px; /* leave space for flags on the right */
     }
+
     nav ul {
         flex-direction: row;
-        flex-wrap: wrap;
-        gap: 8px;
+        flex-wrap: wrap; /* allow items to break to next line if needed */
+        gap: 10px;
         margin: 0;
         padding: 0;
         width: 100%;
     }
+
     nav ul li {
         margin: 0;
     }
-    #home h1 { font-size: 28px; }
-    #services h2, #about h2 { font-size: 24px
 
-
-
-
-
-
-
-
+    #home h1 { font-size: 32px; }
+    #services h2, #about h2 { font-size: 28px; }
+    .service-item h3 { font-size: 20px; }
+    .contact-box { flex-direction: column; gap: 15px; }
+    .payment-logos img { width: 120px; height: 80px; }
+}
