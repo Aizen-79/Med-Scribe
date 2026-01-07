@@ -241,9 +241,9 @@ section {
     align-items: center;
 }
 .payment-logos img {
-    width: 150px;   
-    height: 100px;  
-    object-fit: cover; /* zoom effect inside fixed container */
+    max-width: 150px;   /* limit width but keep natural ratio */
+    height: auto;       /* preserve aspect ratio */
+    object-fit: contain; /* no cropping or stretching */
     background-color: #fff;
     padding: 10px;
     border-radius: 8px;
@@ -296,6 +296,7 @@ footer p {
     }
     #home h1 { font-size: 28px; }
     #services h2, #about h2 { font-size: 24px
+
 
 
 
