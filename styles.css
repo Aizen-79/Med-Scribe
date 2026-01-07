@@ -167,7 +167,7 @@ nav ul li a:hover {
 /* Contact Section */
 #contact {
     padding: 60px 20px;
-    background: #e0f7fa; /* light blue background */
+    background: #b2ebf2; /* slightly darker light blue */
     color: #333;
     text-align: center;
 }
@@ -281,4 +281,5 @@ footer {
     .contact-box { flex-direction: column; gap: 15px; }
     .payment-logos img { width: 120px; height: 80px; }
 }
+
 
