@@ -222,20 +222,17 @@ section {
     color: #fff;
 }
 
-/* Payment Methods Section */
+/* Payment Methods */
 #payment-methods {
-    padding: 60px 20px;
-    background-color: #4a311d; /* darker than contact, lighter than footer */
+    background-color: #f5f5f5;
     text-align: center;
-    color: #fffae6;
+    color: #333;
 }
-
 #payment-methods h2 {
-    font-size: 32px;
-    color: #fffae6;
-    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    margin-bottom: 25px;
 }
-
 .payment-logos {
     display: flex;
     flex-wrap: wrap;
@@ -243,36 +240,19 @@ section {
     gap: 20px;
     align-items: center;
 }
-
 .payment-logos img {
-    width: 150px;              /* keep original size */
-    height: 100px;             /* keep original size */
-    object-fit: cover;         /* zoom effect inside fixed container */
-    background-color: #fff;    /* white background restored */
-    padding: 10px;             /* spacing around logos */
-    border-radius: 8px;        /* rounded corners */
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15); /* subtle shadow */
-    transition: transform 0.3s ease;
+    width: 150px;   
+    height: 100px;  
+    object-fit: cover; /* zoom effect inside fixed container */
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .payment-logos img:hover {
-    transform: scale(1.05);    /* hover zoom effect */
-}
-
-@media (max-width: 768px) {
-    #payment-methods h2 {
-        font-size: 26px;
-    }
-
-    .payment-logos {
-        gap: 15px;
-    }
-
-    .payment-logos img {
-        width: 120px;          /* keep original mobile size */
-        height: 80px;          /* keep original mobile size */
-        padding: 8px;          /* smaller padding for mobile */
-    }
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
 }
 
 /* Footer */
@@ -316,6 +296,7 @@ footer p {
     }
     #home h1 { font-size: 28px; }
     #services h2, #about h2 { font-size: 24px
+
 
 
 
