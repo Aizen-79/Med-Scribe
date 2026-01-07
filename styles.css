@@ -11,6 +11,12 @@ body {
     padding-top: 60px; /* for fixed header */
 }
 
+/* Reset heading margins globally but keep natural feel */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
 /* RTL Support */
 html[dir="rtl"] body {
     direction: rtl;
@@ -292,5 +298,5 @@ footer {
     #services h2, #about h2 { font-size: 28px; }
     .service-item h3 { font-size: 20px; }
     .contact-box { flex-direction: column; gap: 15px; }
-    .payment-logos img { width: 120px; height: 80px; }
 }
+
