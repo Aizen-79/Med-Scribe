@@ -271,15 +271,26 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
+    nav {
+        margin-right: 60px; /* leave space for flags on the right */
+    }
+
     nav ul {
         flex-direction: row;
+        flex-wrap: wrap; /* allow items to break to next line if needed */
         gap: 10px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
     }
+
+    nav ul li {
+        margin: 0;
+    }
+
     #home h1 { font-size: 32px; }
     #services h2, #about h2 { font-size: 28px; }
     .service-item h3 { font-size: 20px; }
     .contact-box { flex-direction: column; gap: 15px; }
     .payment-logos img { width: 120px; height: 80px; }
 }
-
-
