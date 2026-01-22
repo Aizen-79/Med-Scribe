@@ -185,7 +185,7 @@ nav ul li a:hover {
 
 /* About Us Section */
 #about {
-    background-color: rgba(240, 245, 245, 0.85); /* Pale Sand (bridge) */
+    background-color: #F0E0D6; /* Soft Vintage Beige */
     color: #222;
     text-align: center;
     padding: 20px 20px;
@@ -204,7 +204,7 @@ nav ul li a:hover {
 
 /* Contact Section */
 #contact {
-    background-color: rgba(200, 230, 235, 0.85); /* Mist Blue */
+    background-color: rgba(240, 245, 245, 0.85); /* Pale Sand (bridge) */
     color: #222;
     text-align: center;
     padding: 20px 20px;
@@ -296,6 +296,7 @@ footer p {
     #home p { font-size: 16px; }
     #services h2, #about h2 { font-size: 24px; }
 }
+
 
 
 
