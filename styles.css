@@ -81,7 +81,7 @@ nav ul li a:hover {
     background: url('./hero.png') no-repeat center center;
     background-size: cover;
     margin-top: 10px; /* offset for fixed header */
-    padding: 20px 20px;
+    padding: 40px 40px;
     color: #222;
 }
 #home h1 {
@@ -115,7 +115,7 @@ nav ul li a:hover {
 .hero-logo {
   height: 100px;
   width: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -185,7 +185,7 @@ nav ul li a:hover {
 
 /* About Us Section */
 #about {
-    background-color: rgba(253, 247, 240, 0.85); /* Pale Linen */
+    background-color: rgba(240, 245, 245, 0.85); /* Pale Sand (bridge) */
     color: #222;
     text-align: center;
     padding: 20px 20px;
@@ -204,7 +204,7 @@ nav ul li a:hover {
 
 /* Contact Section */
 #contact {
-    background-color: rgba(176, 224, 230, 0.85); /* Powder Blue */
+    background-color: rgba(200, 230, 235, 0.85); /* Mist Blue */
     color: #222;
     text-align: center;
     padding: 20px 20px;
@@ -245,7 +245,7 @@ nav ul li a:hover {
 
 /* Payment Methods */
 #payment-methods {
-    background-color: rgba(200, 230, 235, 0.85); /* Mist Blue */
+    background-color: rgba(220, 230, 235, 0.85); /* Misty Blue-Gray */
     text-align: center;
     color: #222;
     padding: 20px 20px;
@@ -296,6 +296,7 @@ footer p {
     #home p { font-size: 16px; }
     #services h2, #about h2 { font-size: 24px; }
 }
+
 
 
 
