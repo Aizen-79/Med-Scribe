@@ -124,7 +124,7 @@ nav ul li a:hover {
 /* Services Section */
 #services {
     background: #fff;
-    padding: 60px 20px;
+    padding: 20px 20px;
 }
 #services h2 {
     font-family: 'Playfair Display', serif;
@@ -156,7 +156,7 @@ nav ul li a:hover {
     background: #fafafa;
     color: #222;
     text-align: center;
-    padding: 60px 20px;
+    padding: 20px 20px;
 }
 #about h2 {
     font-family: 'Playfair Display', serif;
@@ -175,7 +175,7 @@ nav ul li a:hover {
     background: #fff;
     color: #222;
     text-align: center;
-    padding: 60px 20px;
+    padding: 20px 20px;
 }
 .contact-box {
     display: flex;
@@ -216,7 +216,7 @@ nav ul li a:hover {
     background-color: #fafafa;
     text-align: center;
     color: #222;
-    padding: 60px 20px;
+    padding: 20px 20px;
 }
 #payment-methods h2 {
     font-family: 'Playfair Display', serif;
@@ -245,7 +245,7 @@ footer {
     border-top: 1px solid #e6e6e6;
     color: #666;
     text-align: center;
-    padding: 30px 0;
+    padding: 20px 0;
     font-size: 14px;
 }
 footer p {
@@ -274,6 +274,7 @@ footer {
     #home p { font-size: 16px; }
     #services h2, #about h2 { font-size: 24px; }
 }
+
 
 
 
