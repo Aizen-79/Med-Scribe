@@ -222,7 +222,7 @@ nav ul li a:hover {
     color: #222;
     padding: 15px 20px;
     border-radius: 6px;
-    border: 1px solid #e6e6e6;
+    border: 1px solid #000; /* small black border */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -306,3 +306,4 @@ button:hover,
     #home p { font-size: 16px; }
     #services h2, #about h2 { font-size: 24px; }
 }
+
