@@ -124,7 +124,7 @@ nav ul li a:hover {
 /* Services Section */
 #services {
     background-color: rgba(250, 240, 230, 0.85); /* Linen */
-    padding: 40px 20px;
+    padding: 30px 30px;
 }
 #services h2 {
     font-family: 'Playfair Display', serif;
@@ -187,7 +187,7 @@ nav ul li a:hover {
     background-color: #FAF0E6;
     color: #222;
     text-align: center;
-    padding: 20px 20px;
+    padding: 30px 30px;
 }
 #about h2 {
     font-family: 'Playfair Display', serif;
@@ -206,7 +206,7 @@ nav ul li a:hover {
     background-color: rgba(240, 245, 245, 0.85); /* Pale Sand (bridge) */
     color: #222;
     text-align: center;
-    padding: 20px 20px;
+    padding: 30px 30px;
 }
 .contact-box {
     display: flex;
@@ -247,7 +247,7 @@ nav ul li a:hover {
     background-color: rgba(220, 230, 235, 0.85); /* Misty Blue-Gray */
     text-align: center;
     color: #222;
-    padding: 20px 20px;
+    padding: 30px 30px;
 }
 #payment-methods h2 {
     font-family: 'Playfair Display', serif;
@@ -295,6 +295,7 @@ footer p {
     #home p { font-size: 16px; }
     #services h2, #about h2 { font-size: 24px; }
 }
+
 
 
 
