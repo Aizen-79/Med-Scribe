@@ -111,6 +111,16 @@ nav ul li a:hover {
     background-color: #666;
 }
 
+/* Logo inside Hero */
+.hero-logo {
+  height: 100px;
+  width: auto;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Services Section */
 #services {
     background: #fff;
@@ -254,3 +264,4 @@ footer p {
     #home p { font-size: 16px; }
     #services h2, #about h2 { font-size: 24px; }
 }
+
