@@ -14,7 +14,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 /* RTL Support */
@@ -42,7 +42,7 @@ nav ul {
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 6px 0;
+    padding: 10px 0;
 }
 nav ul li {
     margin: 0 10px;
@@ -264,6 +264,7 @@ footer p {
     #home p { font-size: 16px; }
     #services h2, #about h2 { font-size: 24px; }
 }
+
 
 
 
