@@ -151,6 +151,38 @@ nav ul li a:hover {
     color: #444;
 }
 
+/* Service Box Styling */
+.service-item {
+    background-color: rgba(255, 255, 255, 0.7); /* Light semi-transparent box */
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 700px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+.service-item h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #111;
+    margin-bottom: 12px;
+}
+
+.service-item p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.service-item .price {
+    font-weight: bold;
+    color: #222;
+    margin-top: 10px;
+    display: block;
+}
+
 /* About Us Section */
 #about {
     background-color: rgba(253, 247, 240, 0.85); /* Pale Linen */
@@ -264,5 +296,6 @@ footer p {
     #home p { font-size: 16px; }
     #services h2, #about h2 { font-size: 24px; }
 }
+
 
 
