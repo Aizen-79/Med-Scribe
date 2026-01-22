@@ -81,7 +81,7 @@ nav ul li a:hover {
     background: url('./hero.png') no-repeat center center;
     background-size: cover;
     margin-top: 10px; /* offset for fixed header */
-    padding: 120px 20px;
+    padding: 20px 20px;
     color: #222;
 }
 #home h1 {
@@ -274,6 +274,7 @@ footer {
     #home p { font-size: 16px; }
     #services h2, #about h2 { font-size: 24px; }
 }
+
 
 
 
