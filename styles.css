@@ -123,7 +123,7 @@ nav ul li a:hover {
 
 /* Services Section */
 #services {
-    background: #fff;
+    background-color: #FAEBD7; /* Antique White */
     padding: 40px 20px;
 }
 #services h2 {
@@ -153,7 +153,7 @@ nav ul li a:hover {
 
 /* About Us Section */
 #about {
-    background: #fafafa;
+    background-color: #B2AC88; /* Sage Green */
     color: #222;
     text-align: center;
     padding: 20px 20px;
@@ -172,7 +172,7 @@ nav ul li a:hover {
 
 /* Contact Section */
 #contact {
-    background: #fff;
+    background-color: #C4A69F; /* Dusty Rose */
     color: #222;
     text-align: center;
     padding: 20px 20px;
@@ -213,7 +213,7 @@ nav ul li a:hover {
 
 /* Payment Methods */
 #payment-methods {
-    background-color: #fafafa;
+    background-color: #D8C3A5; /* Pale Ochre */
     text-align: center;
     color: #222;
     padding: 20px 20px;
@@ -264,6 +264,7 @@ footer p {
     #home p { font-size: 16px; }
     #services h2, #about h2 { font-size: 24px; }
 }
+
 
 
 
