@@ -252,6 +252,16 @@ footer p {
     margin: 0;
 }
 
+/* Luxurious background from Services to Footer */
+#services,
+#about,
+#contact,
+#payment-methods,
+footer {
+    background: url('./luxury-bg.png') repeat center center;
+    background-size: cover;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     nav ul {
@@ -264,5 +274,6 @@ footer p {
     #home p { font-size: 16px; }
     #services h2, #about h2 { font-size: 24px; }
 }
+
 
 
