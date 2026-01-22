@@ -9,7 +9,7 @@ body {
     line-height: 1.7;
     margin: 0;
     padding: 0;
-    padding-top: 50px; /* offset for fixed header */
+    padding-top: 30px; /* offset for fixed header */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -123,7 +123,7 @@ nav ul li a:hover {
 
 /* Services Section */
 #services {
-    background-color: #FAEBD7; /* Antique White */
+    background-color: rgba(250, 240, 230, 0.85); /* Linen */
     padding: 40px 20px;
 }
 #services h2 {
@@ -153,7 +153,7 @@ nav ul li a:hover {
 
 /* About Us Section */
 #about {
-    background-color: #B2AC88; /* Sage Green */
+    background-color: rgba(232, 230, 217, 0.85); /* Pale Sage */
     color: #222;
     text-align: center;
     padding: 20px 20px;
@@ -172,7 +172,7 @@ nav ul li a:hover {
 
 /* Contact Section */
 #contact {
-    background-color: #C4A69F; /* Dusty Rose */
+    background-color: rgba(245, 230, 232, 0.85); /* Misty Rose */
     color: #222;
     text-align: center;
     padding: 20px 20px;
@@ -213,7 +213,7 @@ nav ul li a:hover {
 
 /* Payment Methods */
 #payment-methods {
-    background-color: #D8C3A5; /* Pale Ochre */
+    background-color: rgba(247, 231, 206, 0.85); /* Champagne */
     text-align: center;
     color: #222;
     padding: 20px 20px;
@@ -264,15 +264,3 @@ footer p {
     #home p { font-size: 16px; }
     #services h2, #about h2 { font-size: 24px; }
 }
-
-
-
-
-
-
-
-
-
-
-
-
