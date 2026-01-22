@@ -262,6 +262,16 @@ footer {
     background-size: cover;
 }
 
+/* Section Divider Lines */
+section::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #000, transparent);
+  margin: 40px auto;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     nav ul {
@@ -274,7 +284,6 @@ footer {
     #home p { font-size: 16px; }
     #services h2, #about h2 { font-size: 24px; }
 }
-
 
 
 
