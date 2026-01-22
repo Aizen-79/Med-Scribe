@@ -14,7 +14,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 /* RTL Support */
@@ -252,16 +252,6 @@ footer p {
     margin: 0;
 }
 
-/* Luxurious background from Services to Footer */
-#services,
-#about,
-#contact,
-#payment-methods,
-footer {
-    background: url('./luxury-bg.jpg') repeat center center;
-    background-size: cover;
-}
-
 /* Responsive */
 @media (max-width: 768px) {
     nav ul {
@@ -274,6 +264,7 @@ footer {
     #home p { font-size: 16px; }
     #services h2, #about h2 { font-size: 24px; }
 }
+
 
 
 
